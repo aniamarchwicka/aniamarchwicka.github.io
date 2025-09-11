@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anna Marchwicka | UX|Product Designer</title>
+        <!-- Load Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+    
+        <!-- Preload and load fonts with a more reliable method -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+        <style>
+            body {
+                font-family: 'Lato', sans-serif;
+            }
+            h1, h2, h3, h4 {
+                font-family: 'Poppins', sans-serif;
+            }
+        </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased leading-relaxed">
+
+
+        <!-- Header & Navigation -->
+        <header class="bg-teal-800 shadow-sm sticky top-0 z-50">
+            <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+                <a href="#" class="flex items-center space-x-2 text-2xl font-bold text-white">
+                    <!-- Simple Logo with initials "AM" -->
+                    <div class="flex-shrink-0 w-8 h-8 flex items-center justify-center bg-white text-teal-800 rounded-full font-bold text-lg">
+                        AM
+                    </div>
+                    <span>Anna Marchwicka</span>
+                </a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#Case-study" class="text-gray-100 hover:text-white font-medium transition-colors duration-300">Case Study</a>
+                    <a href="#About me" class="text-gray-100 hover:text-white font-medium transition-colors duration-300">About me</a>
+                    <a href="Assistant.html" class="text-gray-100 hover:text-white font-medium transition-colors duration-300">AI Assistant</a>
+                    <a href="#Contact" class="text-gray-100 hover:text-white font-medium transition-colors duration-300">Contact</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden text-gray-100 hover:text-white focus:outline-none">
+                    <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                    <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </nav>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden bg-teal-800 shadow-md">
+                <a href="#Case-study" class="block py-2 px-4 text-sm text-gray-100 hover:bg-teal-900 transition-colors duration-300">Case Study</a>
+                <a href="#About me" class="block py-2 px-4 text-sm text-gray-100 hover:bg-teal-900 transition-colors duration-300">About me</a>
+                <a href="Assistant.html" class="block py-2 px-4 text-sm text-gray-100 hover:bg-teal-900 transition-colors duration-300">AI Assistant</a>
+                <a href="#Contact" class="block py-2 px-4 text-sm text-gray-100 hover:bg-teal-900 transition-colors duration-300">Contact</a>
+            </div>
+        </header>
+
+
+        <main class="py-12">
+            <!-- Hero Section -->
+            <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
+                <div class="bg-white p-8 md:p-12 rounded-2xl shadow-lg">
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">Codename "BlueCopper"</h1>
+                    <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">Designing clarity in complexity</p>
+                </div>
+            </section>
+
+
+            <!-- Case Study Content -->
+            <section id="case-study" class="bg-white py-12 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Project Overview -->
+                    <div class="mb-12">
+                        <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-gray-900">Project overview</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div>
+                                <h3 class="font-semibold text-xl mb-2 text-gray-700">My role & the Team</h3>
+                                <p class="text-gray-600 mb-4">
+                                    I held the role of an UX Lead on a cross-functional scrum team consisting of a PO, BA, Devs, QA, SM, and a team of scientists, researchers, and lab workers. The project type was a <b>Platform Unification & Workflow Redesign</b> for an <b>Enterprise SaaS product</b> for Internal Pharma R&D.
+                                </p>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-xl mb-2 text-gray-700">The Challenge</h3>
+                                <p class="text-gray-600 mb-4">
+                                    A fragmented, siloed system used by pharma scientists was slowing down research and duplicating effort. One user insight captured the challenge well: <i>"I waste half of my day chasing around tools and rooms."</i><br>This became my core insight and the driver behind a unified, intuitive platform.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <h3 class="font-semibold text-xl mb-2 text-gray-700">Summary & impact</h3>
+                            <p class="text-gray-600 mb-4">
+                                I led the end-to-end UX effort to redesign and unify the platform, resulting in major efficiency gains and high user satisfaction.
+                            </p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>Time/effort reduction for researchers</li>
+                                <li>Minimized context-switching steps</li>
+                                <li>97% positive sentiment post-launch (NPS 9.7)</li>
+                                <li>Simplified workflows and minimal onboarding required</li>
+                                <li>Scalable UX system created</li>
+                                <li>Product Owner was promoted post-launch</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <!-- My Role and Process -->
+                    <div class="mb-12">
+                        <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-gray-900">My role & the design process</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div>
+                                <h3 class="font-semibold text-xl mb-2 text-gray-700">My role as UX Lead</h3>
+                                <p class="text-gray-600 mb-4">
+                                    I took on an informal leadership role to define workflows, set early rituals, and align the team during a formative phase. My responsibilities included:
+                                </p>
+                                <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                    <li>Leading UX strategy, research, and discovery.</li>
+                                    <li>Translating product, business, and user goals into actionable solutions.</li>
+                                    <li>Designing and documenting ideas to support agile planning.</li>
+                                    <li>Introducing a modular UX system and defining scalable design patterns.</li>
+                                    <li>Advocating for user experience practices across the team.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-xl mb-2 text-gray-700">The design process</h3>
+                                <p class="text-gray-600 mb-4">
+                                    The project was executed through an iterative, research-led design process with four key stages:
+                                </p>
+                                <ol class="list-decimal list-inside text-gray-600 space-y-2">
+                                    <li>Research & Discovery: heuristic audits, stakeholder/user interviews, and journey mapping to uncover pain points.</li>
+                                    <li>Ideation & Validation: redesigned core workflows and introduced new features based on validated insights.</li>
+                                    <li>Implementation & Measurement: supported development, tracked adoption, and refined as needed.</li>
+                                    <li>Ongoing Development: aligned design work with the product roadmap, maintaining consistency and momentum.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Solution & Outcomes -->
+                    <div class="mb-12">
+                        <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-gray-900">Solution overview & outcomes</h2>
+                        <p class="text-gray-600 mb-4">
+                            We turned a fragmented research application ecosystem into a unified, intuitive platform. Here's a breakdown of the key solutions and their benefits:
+                        </p>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-teal-50 p-6 rounded-xl">
+                                <h4 class="font-semibold text-lg mb-2 text-gray-700">Modular UX system</h4>
+                                <p class="text-sm text-gray-600">
+                                    A set of reusable components and repeatable patterns that scaled across modules and sped up future feature rollouts.
+                                </p>
+                            </div>
+                            <div class="bg-teal-50 p-6 rounded-xl">
+                                <h4 class="font-semibold text-lg mb-2 text-gray-700">Streamlined navigation & IA</h4>
+                                <p class="text-sm text-gray-600">
+                                    Reduced unnecessary clicks by surfacing relevant tasks and data contextually.
+                                </p>
+                            </div>
+                            <div class="bg-teal-50 p-6 rounded-xl">
+                                <h4 class="font-semibold text-lg mb-2 text-gray-700">Unified experiment view</h4>
+                                <p class="text-sm text-gray-600">
+                                    Seamless tracking of experimental lineage across tools.
+                                </p>
+                            </div>
+                            <div class="bg-teal-50 p-6 rounded-xl">
+                                <h4 class="font-semibold text-lg mb-2 text-gray-700">No-Code interaction model</h4>
+                                <p class="text-sm text-gray-600">
+                                    Easy to learn and led to high user adoption with minimal onboarding.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="my-10">
+                            <h3 class="text-xl sm:text-2xl font-bold mb-4 text-gray-800">Final thoughts & learnings</h3>
+                            <p class="text-gray-600 mb-4">
+                                This project helped the product scale smarter, made people work more efficiently, and helped me grow as a systems-level UX thinker and team leader.
+                            </p>
+                            <p class="text-gray-600 font-medium italic mb-4">
+                                "Great UX isn't about making things beautiful—it's about making things make sense."
+                            </p>
+                            <h4 class="font-semibold text-lg mb-2 text-gray-700">Key learnings</h4>
+                            <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                <li>Simplicity is essential in complex domains.</li>
+                                <li>UX maturity starts with structure, not screens.</li>
+                                <li>Early mutual trust empowers teams and increases velocity.</li>
+                                <li>Systems thinking + micro-precision = real value.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <hr class="my-12 max-w-6xl mx-auto border-gray-300" />
+
+
+            <!-- About Me Section -->
+            <section id="about" class="bg-teal-50 py-12 px-4 sm:px-6 lg:px-8 text-center">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-8">About me</h2>
+                    <div>
+                        <div class="flex flex-col md:flex-row items-center gap-8">
+                            <!-- Embedded PDF in a circular frame -->
+                            <div class="w-96 h-96 rounded-full overflow-hidden border-4 border-white shadow-md">
+                                <iframe src="https://drive.google.com/file/d/1aY6jiosDIesWS1vmhqOEj_PuuGxuYdK7/preview" class="w-full h-full" frameborder="0"></iframe>
+                            </div>
+                            <div class="text-left">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Anna Marchwicka</h3>
+                                <p class="text-lg text-gray-600 mb-4">Senior UX/Product Designer | 16+ years experience in SaaS, B2B, and B2B2C environments</p>
+                                <p class="text-gray-700 mb-4">
+                                    A senior UX/Product Designer with over 16 years of hands-on experience in user-centered design, research, and product development. Adept at leading end-to-end design efforts, facilitating cross-functional workshops, and aligning UX with strategic business goals. I am skilled in driving research-informed design decisions,  supporting agile teams in high-growth environments, and scaling design systems.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
+                            <div>
+                                <h4 class="font-semibold text-xl mb-2 text-gray-800">Skills & tools</h4>
+                                <ul class="text-gray-600 text-sm space-y-1">
+                                    <li>**Design:** Figma, Sketch, Axure, Miro, FigJam, Design Systems</li>
+                                    <li>**UX Research:** Usability Testing, Customer Interviews, UserTesting, UserZoom, Google Analytics, Pendo, Hotjar, Dovetail</li>
+                                    <li>**Core Competencies:** Problem Definition, UX Research, Information Architecture, Interaction Design</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-xl mb-2 text-gray-800">Experience</h4>
+                                <ul class="text-gray-600 text-sm space-y-1">
+                                    <li>Lead Product and UX Designer: 108 creations (2013-present)</li>
+                                    <li>UX | Product | Experience | Research: Hazelcast (2022-2023)</li>
+                                    <li>Senior User Experience Designer: 7N (23-2022)</li>
+                                    <li>User Experience Designer: GetResponse (2017-2019)</li>
+                                    <li>UX Designer Expert: Fagbokforlaget V&B AS (2016-2017)</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-xl mb-2 text-gray-800">Education & certification</h4>
+                                <ul class="text-gray-600 text-sm space-y-1">
+                                    <li>Master of Science: Quality Science, Gdynia Maritime University</li>
+                                    <li>Human-Computer Interaction: Stanford University (online)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <hr class="my-12 max-w-6xl mx-auto border-gray-300" />
+            
+            <!-- Contact Section -->
+            <section id="contact" class="bg-white py-12 px-4 sm:px-6 lg:px-8 text-center">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Let's connect</h2>
+                    <p class="text-lg text-gray-600 mb-8">
+                        My goal is to create great user experiences that drive business results. If you have a challenge that needs a strategic design partner, let's connect. I'm available to discuss mid-to-senior level roles and projects, and I'd love to hear about your team and product's unique opportunities.
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
+                        <a href="mailto:ania.marchwicka@gmail.com" class="bg-teal-800 text-white font-semibold py-3 px-6 rounded-full hover:bg-teal-700 transition-colors duration-300">
+                            Email me
+                        </a>
+                        <a href="https://www.linkedin.com/in/annamarchwicka" target="_blank" rel="noopener noreferrer" class="border border-teal-800 text-teal-800 font-semibold py-3 px-6 rounded-full hover:bg-teal-50 transition-colors duration-300">
+                            Connect on LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <!-- Footer -->
+        <footer class="bg-teal-800 text-white py-12">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <p>&copy; 2025 Anna Marchwicka. All rights reserved.</p>
+                <div class="flex justify-center space-x-4 mt-4 text-teal-200">
+                    <a href="https://www.linkedin.com/in/annamarchwicka" class="hover:text-white transition-colors duration-300">LinkedIn</a>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- JavaScript -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const mobileMenuButton = document.getElementById('mobile-menu-button');
+                const mobileMenu = document.getElementById('mobile-menu');
+                const menuIcon = document.getElementById('menu-icon');
+                const closeIcon = document.getElementById('close-icon');
+
+
+                mobileMenuButton.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                    menuIcon.classList.toggle('hidden');
+                    closeIcon.classList.toggle('hidden');
+                });
+            });
+        </script>
+</body>
+</html>
